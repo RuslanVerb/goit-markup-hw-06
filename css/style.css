@@ -427,34 +427,33 @@ color: var(--accent-color);
 }
 
 .hero-title{
-    margin-bottom: 30px;
- 
-
-    font-size: 44px;
-    line-height: 1.37;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-    font-weight: 900;
+  margin-bottom: 30px;
+   font-size: 44px;
+   line-height: 1.37;
+   text-align: center;
+   letter-spacing: 0.06em;
+   font-weight: 900;
+   text-transform: uppercase;
+   color: var(--title-text-color);
 }
 .hero-button{
-display: inline-block;
- border: 0px;
- border-radius: 4px;
-padding: 11px 32px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-min-width: 200px;
-
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-align-items: center;
-letter-spacing: 0.06em;
-color: var(--title-text-color);
-background-color:var(--accent-color);
-cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 11px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  min-width: 200px;
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  background-color:var(--accent-color);
+  cursor: pointer;
+  
 }
 
 
@@ -733,7 +732,7 @@ color: var(--primary-text-color);
   
 /*--------END CLIENTS---------*/
 
-/*------STARt FOOTER---------*/
+/*------START FOOTER---------*/
 
 .footer{
   background-color: var(--bg-color);
@@ -831,8 +830,81 @@ color: rgba(255, 255, 255, 0.6);
   .social-link-footer:hover,
   .social-link-footer:focus {
     background-color: var(--accent-color);
-
   }
+
+  .subscribe{
+    margin-left: 93px;
+  }
+
+  .subscribe-form{
+    display: flex;
+  }
+.subscribe-title{
+  padding-top: 12px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  font-family: var(--main-font);
+}
+
+.subscribe-input{
+width: 358px;
+height: 50px;
+padding-left: 16px;
+margin-right: 12px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+background-color: transparent;
+border-radius: 4px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+
+width: 200px;
+height: 50px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 0px;
+cursor: pointer;
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.subscribe-btn::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  
+
+  background-image: url(../img/send.svg);
+  background-size: contain;
+  background-color: transparent;
+}
+
 /*------END FOOTER---------*/
 
 /*------START PORTFOLIO---------*/
