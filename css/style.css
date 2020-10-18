@@ -145,9 +145,11 @@ color:var(--primary-text-color);
 .modal-form-input{
 display: block;
 width: 100%;
-
 height: 40px;
 padding-left: 42px;
+background-color: #FFFFFF;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 border: 1px solid rgba(33, 33, 33, 0.2);
@@ -156,7 +158,7 @@ margin-bottom: 10px;
 }
 
 .modal-form-message{
-  display: block;
+display: block;
 width: 100%;
 margin-top: 4px;
 margin-bottom: 20px;
@@ -165,6 +167,8 @@ height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 resize: none;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -172,7 +176,6 @@ resize: none;
   background-image: url(../img/checked.svg);
   background-color: #2196F3;
   background-repeat: no-repeat;
-  
   border-color: #2196F3;
   
 }
@@ -195,13 +198,13 @@ resize: none;
   align-items: center;
   margin-bottom: 30px;
   
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   font-family: var(--main-font);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.72;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
 
 }
 
@@ -215,6 +218,8 @@ color: var(--primary-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover,
@@ -902,7 +907,7 @@ color: #FFFFFF;
 
   background-image: url(../img/send.svg);
   background-size: contain;
-  background-color: transparent;
+  
 }
 
 /*------END FOOTER---------*/
